@@ -8,6 +8,9 @@
     max-width: 100%;
     /* overflow-x: hidden; */
   }
+  .list{
+      text-decoration: none;
+  }
   .header{
     padding-top: 30px;
     padding-bottom: 20px;
@@ -82,44 +85,10 @@
     /* width: 50%; */
     /* border: 4px solid rgb(146, 14, 14); */
   }
-  .list{
-    text-decoration: none;
-}
-
-.leftPadding{
-    
-    padding-left: 7%;
-    margin-right: 7%    
-}
-
-#leftbox{
-  position: relative;
-    display: inline;
-    height: 100px;
-    float:left; 
-    /* background:Red; */
-    width:36%;
-    padding: 10px;
-}
-
-
-#rightbox{
- 
-    display: inline;
-    float:right; 
-    /* background:Red; */
-    width:50%;
-    height:280px;
-    height: auto;
-}
-.leadText{
-  margin-top: 200px;
-  position: relative;
-   display: block;
-   padding: 10px;
-}
-.tabContent ul li{
-    /* border: 1px solid; */
-    display: inline;
-    text-decoration: none;
-}
+  
+  
+  .primaryColor {
+    width: 10px;
+    height: 30px;
+    background-color: #7749f8;
+  }

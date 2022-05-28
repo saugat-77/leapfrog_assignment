@@ -13,13 +13,13 @@
       <h4 class="headerText">UI Kit</h4>
       <div class="page1Headerright">
         <ul>
-          <a href="color_page.html"><li>Color</li></a>
-          <a href="#"><li>Typography</li></a>
-          <a href=""><li>Buttons</li></a>
-          <a href=""><li>Forms</li></a>
-          <a href=""><li>List Group</li></a>
-          <a href=""><li>Table</li></a>
-          <a href=""><li>Card</li></a>
+          <a class="list" href="color_page.html"><li>Color</li></a>
+          <a class="list" href="#leftPadding"><li>Typography</li></a>
+          <a class="list" href="buttons.html"><li>Buttons</li></a>
+          <a class="list" href=""><li>Forms</li></a>
+          <a class="list" href=""><li>List Group</li></a>
+          <a class="list" href=""><li>Table</li></a>
+          <a class="list" href=""><li>Card</li></a>
         </ul>
       </div>
 
@@ -30,18 +30,20 @@
     </header>
     <br />
 
-    <h1>Typography</h1>
-    <hr />
-    <div id="leftbox">
-      <h2>Body Text</h2>
-      <p>
-        In ultricies fermentum aliquet. Pellentesque dui magna, condimentum non
-        ullamcorper at, cursus in sem. Nunc condimentum, purus ac sagittis
-        ultricies, metus leo pharetra mi, non vehicula felis elit et nisi. Etiam
-        venenatis commodo libero, vel ullamcorper nibh lobortis vel. Aliquam
-        auctor porta tortor, nec consequat nibh finibus a. Sed ultrices risus
-        eget iaculis luctus. Mauris vel gravida magna.
-      </p>
+    <div class="leftPadding">
+      <h1>Typography</h1>
+      <hr class="hrline" />
+      <div id="leftbox">
+        <h2>Body Text</h2>
+        <p>
+          In ultricies fermentum aliquet. Pellentesque dui magna, condimentum
+          non ullamcorper at, cursus in sem. Nunc condimentum, purus ac sagittis
+          ultricies, metus leo pharetra mi, non vehicula felis elit et nisi.
+          Etiam venenatis commodo libero, vel ullamcorper nibh lobortis vel.
+          Aliquam auctor porta tortor, nec consequat nibh finibus a. Sed
+          ultrices risus eget iaculis luctus. Mauris vel gravida magna.
+        </p>
+      </div>
     </div>
     <div id="rightbox">
       <h2>Inline Text Elements</h2>
@@ -71,10 +73,11 @@
         <li><i>This line rendered as italicized text.</i></li>
       </ul>
     </div>
+    <br />
 
-    <div>
-      <h2>Lead Text</h2>
-      <p>
+    <div class="leadText">
+      <h2 class="leftPadding">Lead Text</h2>
+      <p class="leftPadding">
         In ultricies fermentum aliquet. Pellentesque dui magna, condimentum non
         ullamcorper at, cursus in sem. Nunc condimentum, purus ac enenatis
         commodo libero, am auctor porta tortor, nec consequat nibh finibus a.
@@ -82,9 +85,27 @@
       </p>
     </div>
 
-    <div>
-      <h1>Tabs</h1>
-      <hr />
+    <h1 class="leftPadding">Tabs</h1>
+    <hr class="leftPadding" />
+    <div class="leftPadding tabContent">
+      <ul>
+        <!-- <div class="home"></div> -->
+        <a href=""><li>Home</li></a>
+
+        <p>
+          Raw denim you probably haven't heard of them jean shorts Austin.
+          Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache
+          cliche tempor, williams burg carles vegan helvetica. Reprehenderit
+          butcher retro keffiyeh dreamc atcher synth. Cosby sweater eu banh mi,
+          qui irure terry richardson ex squid. Aliquip placeat salvia cillum
+          iphone. Seitan aliquip quis cardigan american apparel, butcher
+          voluptate nisi qui.
+        </p>
+
+        <li>Profile</li>
+
+        <li>Contact</li>
+      </ul>
     </div>
   </body>
 </html>
