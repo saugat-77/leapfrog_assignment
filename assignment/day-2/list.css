@@ -132,10 +132,7 @@
   
     /* border: 2px solid red; */
   }
-  .column table {
-  
-    /* background-color: yellow; */
-  }
+
   
   table {
     border-collapse: collapse;
@@ -170,6 +167,7 @@
   .lastRow {
     border-bottom: 1px solid grey;
   }
+  
   #first {
     background-color: #7450fa;
     color: white;

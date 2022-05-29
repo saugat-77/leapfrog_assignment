@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid rgb(146, 14, 14); */
+  }
+.outerbox{
+    background-color: green;
+}
+.topBoxehit{
+    background-color:red ;
+}
+.imageBox{
+    background-color:purple;
+}
+.textBox{
+    background-color: brown;
+}
+
+.iconBox{
+    background-color:black ;
+}
