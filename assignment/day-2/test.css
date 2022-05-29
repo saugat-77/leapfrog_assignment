@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid blue; */
+}
+.outerbox{
+    width: 20%;
+    height: 280px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 2px 2px #c7c5c5;
+
+}
+
+.image img{
+    width: 100%;
+    /* background-color: grey; */
+}
+
+.des{
+    padding: 20px;
+    text-align: center;
+}

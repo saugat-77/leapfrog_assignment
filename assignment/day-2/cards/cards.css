@@ -92,4 +92,33 @@
     height: 30px;
     background-color: #7749f8;
   }
+  .outerbox{
+    width: 20%;
+    height: 300px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 2px 2px #c7c5c5;
+
+}
+
+.image img{
+    width: 100%;
+    /* background-color: grey; */
+}
+.icon{
+  text-align: center;
+}
+button{
+  color: white;
+  background-color: #4caf50;
+  border-radius: 40%;
+  border-color: #4caf50;
+  text-decoration: none;
+  padding: 5px;
   
+}
+.des{
+    padding: 20px;
+    text-align: center;
+}
