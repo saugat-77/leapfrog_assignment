@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    ;
     /* border: 1px solid rgb(146, 14, 14); */
   }
   html,
@@ -17,11 +18,13 @@
   .hrLine{
     width: 75%;
     margin-left: 7%;
+    margin-right: 7%;
+
   }
   
   .sec,
   .header,
-  .titleText,.hrLine {
+  .titleText {
     position: relative;
     padding-left: 7%;
   }
@@ -46,8 +49,9 @@
   
     /* border: 4px solid black; */
   }
-  a {
+  a{
     text-decoration-color: grey;
+    /* background-color: red; */
   }
   #button1 {
     font-size:x-small;
@@ -87,12 +91,13 @@
 }
 
 .leftPadding{
-    
-    padding-left: 7%;
+    margin: 20px;
+    padding-left: 5.8%;
     margin-right: 7%    
 }
 
 #leftbox{
+    font-size: larger;
   position: relative;
     display: inline;
     height: 100px;
@@ -100,26 +105,68 @@
     /* background:Red; */
     width:36%;
     padding: 10px;
+    margin: 10px 0px 50px 0px;
 }
 
 
 #rightbox{
- 
+    font-size: larger;
     display: inline;
     float:right; 
     /* background:Red; */
     width:50%;
     height:280px;
     height: auto;
+    /* background-color: blue; */
 }
+#rightbox ul{
+    list-style-type:none;
+}
+
 .leadText{
-  margin-top: 200px;
-  position: relative;
-   display: block;
-   padding: 10px;
+    font-size: larger;
+    margin-top: 200px;
+    position: relative;
+    display: block;
+    padding: 40px;
+    margin-left: -25px;
 }
 .tabContent ul li{
     /* border: 1px solid; */
     display: inline;
     text-decoration: none;
 }
+
+.dropbtn{
+    display: inline;
+    height: 45px;
+    width: 80px;
+    border: 1px solid rgb(192, 192, 192);
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+    text-align: center;
+    line-height: 45px;
+    
+}
+.dropbtn {
+
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* .dropdown {
+    position: absolute;
+  } */
+  /* .dropdown:hover, .dropdown {display: block;} */
+
+.dropdown:hover,.dropbtn 
+    {
+
+    background-color: white;
+    }
+    .dropbtn:hover{
+        background-color: purple;
+    }
+
+  
