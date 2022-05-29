@@ -61,9 +61,9 @@
     width: 65px;
     /* text-align: right; */
     height: 36px;
-
     padding: 7px;
   }
+  
   
   .search {
     font-size: large;
@@ -99,12 +99,19 @@
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     box-shadow: 2px 2px #c7c5c5;
+    display: inline-block;
+    padding: 50px;
 
 }
 
 .image img{
     width: 100%;
-    /* background-color: grey; */
+    background-color: grey;
+}
+.topplace{
+  border-color: #4caf50;
+  margin-bottom: 10px;
+
 }
 .icon{
   text-align: center;
@@ -116,9 +123,33 @@ button{
   border-color: #4caf50;
   text-decoration: none;
   padding: 5px;
-  
 }
+
+
+#btn{
+  font-size:small;
+  border-radius: 5px;
+  }
 .des{
     padding: 20px;
     text-align: center;
+}
+.des2{
+  text-align: left;
+  border-radius: 50%;
+  width:20px;
+  float: left;
+}
+#img{
+  border-radius: 50%;
+  width:20px;
+  float: left;;
+}
+.oneup{
+  padding-bottom: 10px;
+  float: left;
+  padding-top: 0%;
+}
+#like{
+padding: 20px;
 }
