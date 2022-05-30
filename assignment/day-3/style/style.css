@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid rgb(146, 14, 14); */
+}
+.header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: inherit;
+    outline: none;
+    letter-spacing: inherit;
+    text-decoration: none;
+    cursor: inherit;
+    background-color: #E5E5E5;
+}
+.heading{
+    float: left;
+    padding-left: 40px;
+    /* padding-top: 32px; */
+    /* margin-bottom: 50px; */
+    background-color: red;
+}
+ul.listItems li{
+    padding-top: 32px;
+    display:inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+/* ul li{
+    float: right;
+} */
+
+ul li .btn{
+    border-color: yellow;
+}
+
