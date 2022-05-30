@@ -1,6 +1,7 @@
 .page{
     padding: 0px 20px 0px 20px;
     border-color: aqua;
+      /* border: 1px solid rgb(146, 14, 14); */
 }
 
 .bigBox{
@@ -23,10 +24,16 @@
 
 } */
 
+.listItems {
+    float: right;
+}
+
 img.img{
     height: 360px;
-    width: 320px; 
+    width: 390px; 
     border-radius: 0px;
+    padding-left: 10px;
+    
 }
 img.img2{
     height: 50px;
@@ -39,13 +46,14 @@ img.img3{
     width: 180px;
     padding: 5px 20px 5px 30px;
 }
-.centreBox{
+.centreBox {
     /* background-color: purple; */
-    float:left;
+    float: left;
     width: 250px;
     display: inline;
-    padding: 20px;
-    margin-left: 55px;
+    margin-top: 75px;
+    /* padding: 20px; */
+    margin-left: 36px;
     /* border-color: pink; */
 }
 .text{
@@ -54,4 +62,19 @@ img.img3{
 }
 .text2{
     text-align: left;
+}
+.blogClass{
+    position: relative;
+}
+.centerMain{
+    position: relative;
+    margin-top: 400px;
+    height: 324px;
+
+}
+#what{
+    position: absolute;
+    margin-bottom: 100px;
+    /* margin-top: 300px; */
+    height: 150px;
 }
