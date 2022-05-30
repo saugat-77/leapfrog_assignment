@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    /* border: 1px solid rgb(146, 14, 14); */
+    border: 1px solid rgb(146, 14, 14);
 }
 .header{
     margin: 0;
@@ -37,3 +37,31 @@ ul li .btn{
     border-color: yellow;
 }
 
+.base{
+    border-color: purple;
+    background: #292838;
+    /* color: white; */
+}
+.footer{
+    /* background-color: #292838; */
+    display: inline;
+    float: left;
+    border-color: black;
+    width: 23%;
+    float:left; 
+    /* background:Red; */
+
+    /* padding: 10px; */
+}
+.footerRight{
+    float: right;
+    padding-right: 40px;
+    width: 65%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+table, th, td {
+    border: 3px solid white;
+    float: left;
+    padding-left: 20px;
+  }
