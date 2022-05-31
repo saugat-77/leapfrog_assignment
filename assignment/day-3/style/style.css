@@ -7,12 +7,12 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font: inherit;
+    /* font: inherit;
     vertical-align: inherit;
     outline: none;
     letter-spacing: inherit;
     text-decoration: none;
-    cursor: inherit;
+    cursor: inherit; */
     background-color: #e5e5e5;
     height: 50px;
     width: 100%;
@@ -49,18 +49,18 @@
     /* color: white; */
 }
 .footer{
+    position: relative;
     /* background-color: #292838; */
     display: inline;
     float: left;
     border-color: black;
-    width: 23%;
-    float:left; 
+
     /* background:Red; */
 
     /* padding: 10px; */
 }
 .footerRight{
-    position: relative;
+    position: absolute;
     float: right;
     padding-right: 40px;
     width: 65%;
@@ -68,7 +68,7 @@
     border: 2px solid black;
 }
 table, th, td {
-    position: realative;
+    position: absolute;
     border: 3px solid white;
     float: left;
     padding-left: 20px;
