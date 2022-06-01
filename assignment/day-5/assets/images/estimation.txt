@@ -1,0 +1,26 @@
+Estimation time(ET)
+Actual Time(AT)
+
+nav-bar=ET: 10 mins
+        AT:30 mins
+
+color-page=ET:20 mins
+            AT:25 mins
+
+Typography=ET:20 mins
+            AT:15 mins
+
+Buttons=ET:30 mins
+        AT: 30 mins
+
+Forms=ET:1 hour
+      AT:1.5 hours
+
+List Group: ET:20 mins
+            AT:20 mins
+
+Tables= ET:30 mins
+        AT:40 mins
+
+Cards=ET:2hrs
+      AT:

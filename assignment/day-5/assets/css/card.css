@@ -1,0 +1,79 @@
+  .outerbox {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 2px 2px #c7c5c5;
+    display: inline-block;
+    padding: 50px;
+  }
+  .part1 {
+    position: relative;
+    float: left;
+    margin-top: 10%;
+  }
+  .part2 {
+    position: relative;
+    /* background-color: #4caf50; */
+    margin-left: 3%;
+    margin-top: 8%;
+    height: 200px;
+    float: left;
+  }
+  .part3 {
+    position: absolute;
+    /* background-color: black; */
+    float: right;
+    margin-left: 3%;
+    margin-top: 10%;
+  }
+  
+  .part1,
+  .part3,
+  .part2 {
+    width: 20%;
+    height: 250px;
+  }
+  
+  .image img {
+    width: 100%;
+    background-color: grey;
+  }
+  .topplace {
+    border-color: #4caf50;
+    margin-bottom: 10px;
+  }
+  .icon {
+    text-align: center;
+  }
+  /* button {
+    color: white;
+    background-color: #4caf50;
+    border-radius: 40%;
+    border-color: #4caf50;
+    text-decoration: none;
+    padding: 5px;
+  } */
+  
+  #btn {
+    font-size: small;
+    border-radius: 5px;
+  }
+  .des {
+    padding: 20px;
+    text-align: center;
+  }
+  .all {
+    width: 100%;
+  }
+  #img {
+    border-radius: 50%;
+    width: 20px;
+    float: left;
+  }
+  .oneup {
+    padding-bottom: 10px;
+    float: left;
+    padding-top: 0%;
+  }
+  #like {
+    padding: 20px;
+  }
