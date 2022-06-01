@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   /* border: 1px solid red; */
-  /* box-sizing: border-box; */
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
 nav {
@@ -14,13 +16,14 @@ nav {
   margin-left: 40px;
   margin-bottom: 37px;
   font-size: 30px;
+  font-weight: 600;
   float: left;
 }
-
 
 .menu-icon {
   display: none;
 }
+
 
 .navbar {
   float: right;
