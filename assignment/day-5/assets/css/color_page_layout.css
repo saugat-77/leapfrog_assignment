@@ -1,0 +1,31 @@
+
+.primary-colors{
+    float: left;
+}
+.primary-box{
+    /* background-color: black; */
+    /* border-color: red; */
+    float: left;
+    padding: 20px;
+    display: inline;
+}
+
+.box{
+    height: 60px;
+    width: 150px;
+    background-color: #7749F8;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+
+}
+.primary-text{
+    width: 150px ;
+    overflow: hidden;
+}
+.box2{
+    background-color: #5227CC;
+}
+.box3{
+    background-color:#EBE5FC;
+}

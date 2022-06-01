@@ -1,0 +1,38 @@
+table, td, th {
+    /* border: 1px solid; */
+    height: 35px;
+    width: 25%;
+    border-collapse: collapse;
+  }
+
+  .one, .two, .three, .next, .previous {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  .one:hover, .two:hover, .three:hover, .next:hover, .previous:hover {
+    background-color: purple;
+    color: white;
+    
+  }
+  
+  
+  .one, .two, .three, .next, .previous {
+    background-color: white;
+    color: purple;
+  }
+  table{
+      width: 100%;
+  }
+  th, td {
+    padding: 5px;
+    text-align: center;
+  }
+
+  tr:nth-child(even){
+      background-color: rgb(243, 240, 240);
+  }
+
+  .leftAlignButtons{
+      padding-left: 65%;
+  }

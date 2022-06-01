@@ -1,0 +1,92 @@
+table{
+    border-radius: 20px;
+}
+table:hover{
+  cursor: pointer;
+}
+table,
+td {
+  /* border: 1px solid red; */
+  border-collapse: collapse;
+  height: 35px;
+ 
+  /* color: white; */
+  /* width: 250px; */
+}
+#lines td {
+  border: 1px solid grey;
+ 
+}
+#lines{
+    width: 250px;
+}
+
+.row,
+.column {
+  border-collapse: collapse;
+  display: inline;
+  box-sizing: border-box;
+}
+
+
+.row {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+
+.column {
+  width: 50%;
+  float: left;
+  padding-top: 5px;
+
+  /* border: 2px solid red; */
+}
+
+
+table {
+  border-collapse: collapse;
+  /* border-spacing: 0;
+  /* width: 250px; */
+  border: 1px solid #ddd;
+}
+
+td {
+  text-align: left;
+  padding: 6px;
+}
+#small {
+  float: right;
+  width: 100px;
+}
+
+.table {
+  border-collapse: collapse;
+  margin-left: 99px;
+  position: absolute;
+  /* border-color: grey; */
+
+  /* float: left; */
+  width: 34%;
+  /* border: 3px solid green; */
+  padding: 10px;
+}
+.table2 {
+  border-radius: 10px;
+}
+.lastRow {
+  border-bottom: 1px solid grey;
+}
+
+.first-element:hover {
+  background-color: #7450fa;
+  color: white;
+  cursor: pointer;
+}
+/* .first-element{
+    background-color: #7450fa;
+    color: white;
+} */
+/* table > tr :hover{
+    background-color: #7450fa;
+    color: white;
+} */
