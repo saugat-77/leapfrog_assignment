@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* background-color: blue; */
+    /* border: 1px solid green; */
+    font-family: 'Volkhov', serif;
+}
+body{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+*::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.logo{
+    margin: 30px 0 30px 60px ;
+    float: left;
+    font-size: 30px;
+    /* margin-right: 450px; */
+}
+
+nav{
+    /* margin: 0px 0px 0px 40px; */
+    /* height: auto; */
+    float:right;
+    margin-right: 200px;
+    margin: 20px 0px 0px 50px;
+    
+}
+
+nav ul li{
+    /* float: left; */
+    height: auto;
+    /* display: inline; */
+    padding: 10px;
+    /* color: red; */
+}
+nav ul li a{
+    /* color: red; */
+    color: black;
+    font-size: 17px;
+}
+
+header{
+    /* padding: 40px; */
+    /* background-color: #f9f9fb; */
+    position: relative;
+    padding: 10px 20px ;
+    /* overflow: auto; */
+    max-width: 1440px;
+    text-align: centre;
+    margin: auto;
+}
+nav ul li {
+    float:left ;
+}
+nav> ul> li> select{
+    font-size: 17px;
+    border: none;
+    background-color: transparent;
+    color: black;
+}
+
+.ham-menu > img{
+    float: right;
+    height: 30px;
+    width: 30px;
+    display: none;
+}
+nav > ul > li :hover{
+    background-color: #c57d7d;  
+    color: wheat;
+    cursor: pointer;
+    transition: 0.5s;
+}
+@media only screen and (max-width: 600px) {
+    nav{
+        display: none;
+    }
+    
+  .logo{
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+}
+    .ham-menu > img{
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    nav{
+        display: none;
+    }
+    
+  .logo{
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+}
+    .ham-menu > img{
+        display: block;
+    }
+
+}

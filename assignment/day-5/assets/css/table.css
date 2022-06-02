@@ -35,4 +35,5 @@ table, td, th {
 
   .leftAlignButtons{
       padding-left: 65%;
+      cursor: pointer;
   }

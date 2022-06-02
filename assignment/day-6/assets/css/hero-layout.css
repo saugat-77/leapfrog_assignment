@@ -1,0 +1,87 @@
+ h1 {
+    /* background-color: blue; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+h1.banner-slogan{
+    color: #181E4B;
+}
+.banner-slogan{
+    font-size: 80px;
+    width: 400px; 
+    word-wrap: break-word;
+}
+.banner-slogan > p{
+    width: 400px;
+    /* color: red; */
+    font-size: 15px;
+    color: #5E6282;
+    padding: 20px 0;
+}
+.banner-header{
+    color: #DF6951;
+    
+}
+.hero-background{
+    height: 200px;
+    width: 200px;
+
+    background-image: url("../images/background-hero.png");
+    background-repeat: none;
+    background-position: right top;
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 10px;
+
+    width: 766.306884765625px;
+    left: 736px;
+    top: -149px;
+    border-radius: 0px;
+    z-index: -1;
+}
+.hero-image{
+    height: 400px;
+    width: 400px;
+    background-image: url("../images/hero.png");
+    top: 120px;
+    right: -200px;
+    z-index: 1;
+}
+.hero-aeroplane{
+    top: 50px;
+    right: 200px;
+    height: 120px;
+    width: 100px;
+    background-image: url("../images/hero-aeroplane.png");
+    margin-left: 782px;
+    z-index: -2;
+}
+.hero{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* 
+.hero-background{
+    float: right;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: none;
+} */
+
+.find-btn{
+    margin: 20px;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    background-color:#F1A501;
+    border: none;
+    border-radius: 5px;    
+}
+.play-btn{
+    border-radius: 2px solid blue;
+    /* display: none; */
+}
