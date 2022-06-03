@@ -46,6 +46,7 @@ nav ul li a{
     /* color: red; */
     color: black;
     font-size: 17px;
+    
 }
 
 header{
@@ -57,7 +58,9 @@ header{
     max-width: 1440px;
     text-align: centre;
     margin: auto;
+    height: 100vh;
 }
+
 nav ul li {
     float:left ;
 }
@@ -75,12 +78,35 @@ nav> ul> li> select{
     display: none;
 }
 nav > ul > li :hover{
+
     background-color: #d6b0b0;  
     color: wheat;
     cursor: pointer;
     transition: 0.5s;
 }
-@media only screen and (max-width: 611px) {
+
+@media only screen and (max-width: 1000px) {
+
+    
+    .logo{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+  }   
+     .nav{
+      clear: both;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+  }
+      /* .ham-menu > img{
+          display: block;
+      } */
+  
+  }
+
+
+@media only screen and (max-width: 650px) {
     nav{
         display: none;
     }
@@ -96,22 +122,3 @@ nav > ul > li :hover{
 
 }
 
-@media only screen and (max-width: 1000px) {
-
-    
-  .logo{
-      width: 100%;
-      margin: 0 auto;
-      text-align: center;
-}   
-.nav{
-    clear: both;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
-    /* .ham-menu > img{
-        display: block;
-    } */
-
-}

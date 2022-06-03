@@ -30,21 +30,29 @@
     color: white;
     border-radius: 10px;
 }
-@media only screen and (max-width: 611px) {
+@media only screen and (max-width: 650px) {
     .catageory-card{
-        width: 20%;
+        clear: both;
+        width: 100%;
         margin: 0 auto;
         text-align: center;
+        padding-left: 100px;
+        padding-bottom: 20px;
         /* display: none; */
 
+    }
+    .catageory-four-cards{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        
     }
     
 }
 @media only screen and (max-width: 1000px) {
 
-    
     .catageory-card{
-        width: 45%;
+        width: 50%;
         margin: 0 auto;
         text-align: center;
         /* display: none; */
