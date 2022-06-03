@@ -1,29 +1,57 @@
-
-
 .body{
     margin: auto;
     width: 80%;
     /* border: 3px solid #73AD21; */
     padding: 10px;
 }
-.category-text {
+.text {
     /* background-color: blue; */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.text > span{
+    margin: 10px 0px 20px 0;
+    /* text-align: center; */
+}
+.catageory-icon{
     text-align: center;
 }
+
 .catageory-card{
-    padding: 10px;
+    padding: 20px;
     width: 25%;
     float: left;
+}
+.catageory-card > span{
+    margin: 50px;
 }
 .icon-text {
     font-size: 13px;
     /* text-align: center; */
 }
 .icon-text > span{
-    font-family: 'Open Sans';
-    font-style: normal;
+    font-family: Open Sans;
+    font-size: 20px;
     font-weight: 600;
-    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.icon-text > p{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
 }
 .catageory-card:hover{
     background-color: hsl(0, 32%, 76%);
@@ -33,7 +61,7 @@
 @media only screen and (max-width: 650px) {
     .catageory-card{
         clear: both;
-        width: 100%;
+        width: 50%;
         margin: 0 auto;
         text-align: center;
         padding-left: 100px;
@@ -41,20 +69,21 @@
         /* display: none; */
 
     }
-    .catageory-four-cards{
+    /* .catageory-four-cards{
         width: 100%;
         margin: 0 auto;
         text-align: center;
         
-    }
+    } */
     
 }
 @media only screen and (max-width: 1000px) {
 
     .catageory-card{
-        width: 50%;
+        width: 100%;
         margin: 0 auto;
         text-align: center;
         /* display: none; */
     }
+
   } 

@@ -1,0 +1,153 @@
+.booking{
+    position: relative;
+}
+.book-text{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.005em;
+    text-align: left;    
+    color: #14183E;
+    padding: 5px;
+
+}
+.book-card-header{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0.015em;
+text-align: left;
+
+}
+.book-card-big{
+    padding: 10px;
+    width: 71%;
+    float: left;
+    background-color:#ffffff;
+}
+.book-card-photo img{ 
+    width:300px;
+    margin: 0 auto;
+}
+.book-card:hover{
+    background-color: hsl(0, 32%, 76%);
+    border-radius: 10px;
+}
+.left-icon img{
+    float: left;
+    height: 15px;
+    width: 15px;
+    padding: 2px;
+}
+
+/* .right-icon{
+
+    float: right;
+    height: 15px;
+    width: 15px;
+    padding: 2px;
+
+} */
+.book-card-small-img{
+    float: left;
+}
+
+.book-card-small-txt > p > span{
+    color: rgb(130, 37, 192);
+}
+.book-card-small{
+    margin-top: 185px;
+    margin-left: 199px;
+    position:absolute;
+    /* display: none; */
+}
+.book-card-small-txt {
+    /* background-color: red; */
+    text-align: left;
+    float: left;
+}
+.book-card-small-txt >p{
+    font-size: 12px;
+    line-height: 1.2;
+}
+.book-text > span{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #5E6282;
+
+}
+.book-text2{
+font-family: Volkhov;
+font-size: 50px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0em;
+text-align: left;
+width: 511px;
+height: 130px;
+left: 186px;
+top: 2459px;
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 64px;
+text-transform: capitalize;
+
+}
+.book-text2 > span{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: #5E6282;
+
+}
+.book-text2 > h2{
+    font-family: Volkhov;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #14183E;
+
+}
+/* .book-trip{
+    width: 50%;
+    float: left;
+} */
+.choose-dest img{
+    /* position: absolute; */
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+.booking{
+    width: 45%;
+    /* background-color: blue; */
+    float: right;
+    position: relative;
+
+}
+
+.book-text > h2{
+    position: absolute;
+    left: 186px;
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: capitalize;
+}
+.book-info{
+    float: left;
+    text-align: left;
+}

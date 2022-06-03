@@ -92,7 +92,7 @@ nav > ul > li :hover{
         width: 100%;
         margin: 0 auto;
         text-align: center;
-  }   
+    }   
      .nav{
       clear: both;
       width: 100%;
@@ -117,6 +117,7 @@ nav > ul > li :hover{
       text-align: center;
 }
     .ham-menu > img{
+        float: right;
         display: block;
     }
 
