@@ -11,7 +11,7 @@
 body{
     width: 100%;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 *::after{
     content:"";
@@ -30,7 +30,7 @@ nav{
     /* margin: 0px 0px 0px 40px; */
     /* height: auto; */
     float:right;
-    margin-right: 200px;
+    padding-right: 100px;
     margin: 20px 0px 0px 50px;
     
 }
@@ -75,12 +75,12 @@ nav> ul> li> select{
     display: none;
 }
 nav > ul > li :hover{
-    background-color: #c57d7d;  
+    background-color: #d6b0b0;  
     color: wheat;
     cursor: pointer;
     transition: 0.5s;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 611px) {
     nav{
         display: none;
     }
@@ -97,17 +97,21 @@ nav > ul > li :hover{
 }
 
 @media only screen and (max-width: 1000px) {
-    nav{
-        display: none;
-    }
+
     
   .logo{
       width: 100%;
       margin: 0 auto;
       text-align: center;
+}   
+.nav{
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
-    .ham-menu > img{
+    /* .ham-menu > img{
         display: block;
-    }
+    } */
 
 }

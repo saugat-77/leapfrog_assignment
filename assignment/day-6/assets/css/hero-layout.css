@@ -30,7 +30,7 @@ h1.banner-slogan{
     background-repeat: none;
     background-position: right top;
     background-size: cover;
-    height: 100vh;
+    height: 670px;
     position: absolute;
     top: 0;
     right: 10px;
@@ -81,7 +81,29 @@ h1.banner-slogan{
     border: none;
     border-radius: 5px;    
 }
-.play-btn{
+/* .play-btn{
+    overflow: hidden;
     border-radius: 2px solid blue;
-    /* display: none; */
+    display: none;
+    z-index: -2;
+    top: 0;
+    right: 0;
+} */
+@media only screen and (max-width: 600px){
+    
+    .hero-image{
+        /* clear: both; */
+        /* height: 400px; */
+        margin: 0 auto;
+        display: block;
+        width: 50%;
+        background-image: url("../images/hero.png");
+        /* top: 120px;
+        right: -200px;
+        z-index: 1;
+        display: center; */
+        background-color: red;
+    }
+    
+   
 }

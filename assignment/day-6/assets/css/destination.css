@@ -1,0 +1,38 @@
+.dest-card{
+    padding: 20px;
+    width: 20%;
+    background-color: grey;
+    float: left;
+    /* height: 250px; */
+}
+.dest-info{
+    font-size: 10px;
+}
+.dest-img img{
+    border-radius: 15px;
+    height: 300px;
+    width: 100%;
+}
+.dest-place-info{
+    font-size: 10px;
+}
+.info-left-text{
+    float: left;
+}
+.info-right-text{
+    float: right;
+}
+.dest-place-info{
+    font-size:10px ;
+}
+.dest-time-info img{
+    clear: both;
+    float: left;
+    height: 10px;
+    width: 10px ;
+}
+.dest-time-info > span{
+    /* clear: both; */
+    float: left;
+    font-size:10px ;
+}
