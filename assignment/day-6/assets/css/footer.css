@@ -1,0 +1,71 @@
+footer{
+    width: 80%;
+    margin: 0 auto;
+}
+.foot-logo{
+    width: 25%;
+    float: left;
+    /* background-color: red; */
+}
+.foot-logo > p{
+    width: 80%;
+}
+.foot-logo > span{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 66px;
+color: #181E4B;
+}
+.foot-logo > p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 124.5%;
+color: #5E6282;
+}
+.foot-info ul{
+    list-style-type: none;
+}
+.foot-info ul li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 124.5%;
+    color: #5E6282;
+
+}
+.foot-info{
+    width: 50%;
+    float: left;
+    /* background-color: blue; */
+}
+.company{
+    width: 33%;
+    float: left;
+}
+.contact{
+    width: 33%;
+    float: left;
+}
+.more{
+    width: 33%;
+    float: left;
+}
+.foot-connect{
+    width: 25%;
+    float: left;
+    /* background-color: green; */
+}
+.social > img{
+    height: 45px;
+    width: 45px;
+}
+/* 
+.app-store > img{
+    height: 15px;
+    width: 60px;
+} */

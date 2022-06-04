@@ -1,0 +1,44 @@
+.sub-big{
+    /* width: 80%; */
+    padding: 50px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+.sub-box{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    }
+.sub-box >img{
+    height: 40px;
+    width: 40px;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+.sub-info{
+font-family: Poppins;
+font-size: 25px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: center;
+color: #5E6282;
+text-align: center;
+padding: 50px 10px 10px 10px;
+border: 1px solid black;
+border-top-left-radius: 20px;
+border-radius: 129px 20px  20px 20px ;
+background-color: #f1f0f5;;
+
+}
+.sub-mail > input{
+    padding: 15px;
+}
+.sub-mail >button{
+    padding: 15px;
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+border-radius: 10px;
+border-style: none;
+
+}
