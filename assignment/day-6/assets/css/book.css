@@ -22,7 +22,7 @@ text-align: left;
 .book-card-big{
     padding: 10px;
     width: 90%;
-    float: left;
+    float: right;
     background-color:#ffffff;
 }
 .book-card-photo img{ 
@@ -176,4 +176,53 @@ text-align: left;
 .book-feature{
     float: left;
     width: 50%;
+}
+
+@media only screen and (max-width: 1000px)  {
+    .book-text2 > h2{
+        font-size: 30px;
+    }
+    
+    
+    .boooking{
+        margin: 0 auto;
+        clear: both;
+        width: 100%;
+        /* display: none; */
+    
+    }
+    .book-next{
+        margin: 0 auto;
+        clear: both;
+        width: 100%;
+        margin-left: 100px;
+        margin-top: 165px;
+    }
+    
+}
+@media only screen and (max-width: 650px)  {
+    .feat-1{
+        margin: 0 auto;
+        clear: both;
+        width: 100%;
+        text-align: center;
+    }
+    .feat-1 > img{
+        margin: 0 auto;
+        clear: both;
+        margin-left: 200px;
+
+}
+    .book-next{
+    margin: 0 auto;
+    clear: both;
+    width: 100%;
+    }
+    .boooking{
+        margin: 0 auto;
+        clear: both;
+        width: 100%;
+        display: none;
+    
+    }
 }

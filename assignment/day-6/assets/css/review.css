@@ -1,0 +1,22 @@
+.review{
+    padding: 20px;
+}
+.review-text{
+    float: left;
+    width: 50%;
+}
+
+.review-box{
+    position:relative;
+    float: right;
+    width: 50%;
+
+}
+.review-party img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+.review-text > p{
+    font-size: 16px;
+}
