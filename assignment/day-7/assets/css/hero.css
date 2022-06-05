@@ -5,6 +5,7 @@
     border: 1px solid black;
     display: flex;
   }
+
   .hero, .hero-content, .hero-image {
     flex: 1;  
     flex: 1;
@@ -67,7 +68,12 @@
     height: 40px;
     width: 40px;
     margin:5px 2px 20px 2px;
+    /* background-color: red; */
 
+}
+.card-icon >p {
+    float: left;
+    width: 100%;
 }
 .card-content{
     float: left;
@@ -113,7 +119,7 @@
     top: 283px;
     margin-left: 23px;
     position: absolute;
-    background-color: blue;
+    /* background-color: blue; */
     float: left;
     width: 170px;
     border-radius: 10px;

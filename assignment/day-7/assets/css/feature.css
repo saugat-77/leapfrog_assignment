@@ -1,0 +1,47 @@
+
+.feature1{
+    display: flex;
+}
+.feature1-left{
+    width: 50%;
+    /* background-color: red; */
+}
+
+.feature1-left > img{
+    /* width: 200px; */
+    width: 530px;
+
+}
+.feature1-right > h2{
+    text-align: left;
+}
+.feature1-right{
+    padding: 19px;
+    float: right;
+    width: 50%;
+}
+table{
+    width: 90%;
+}
+table {
+    margin-left:20px ;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+
+color: #696984;
+}
+.feature-2-student > p{
+    width: 100%;
+    line-height: 120%;
+}
+
+.assign-card{
+    background-color: grey;
+}
+.feature3{
+    display:flex ;
+}

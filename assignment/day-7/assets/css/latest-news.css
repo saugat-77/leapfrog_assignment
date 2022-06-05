@@ -1,0 +1,78 @@
+.newar-res{
+    display: flex;
+
+}
+.left-res{
+  
+    width: 50%;
+    /* background-color: blue; */
+}
+.left-res > img{
+    margin: 20px;
+    width: 80%;
+    background: #171B41;
+opacity: 0.9;
+border-radius: 20px
+}
+.left-res > button{
+    width: 130px;
+height: 40px;
+left: 200px;
+top: 10421px;
+
+background: #F4C467;
+border-radius: 80px;
+border-style: none;
+    
+}
+.right-res{
+   
+/* background-color: red; */
+    width: 50%;
+}
+.news > h3{
+    width: 80%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 120%;
+color: #252641;
+}
+
+.news > p, .res-r-txt > p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 120%;
+letter-spacing: 0.02em;
+color: #696984;
+}
+
+.news > a{
+text-decoration-line: underline;
+color: #696984
+}
+.res-info-1{
+    display: flex;
+}
+
+.res-l-img{
+    width: 50%;
+}
+.res-l-img img{
+    height: 200px;
+    width: 250px;
+}
+.res-r-txt{
+    width: 50%;
+}
+.res-r-txt > h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    color: #252641;
+}
