@@ -1,0 +1,68 @@
+.cloud-text{
+    text-align: center;
+}
+.cloud-text-1{
+    width: 95%;
+}
+.cloud-text-1 > span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #2F327D;
+
+}
+.cloud-icon{
+    text-align: center;
+}
+.cloud-text-1 > p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    color: #696984;
+
+}
+#id1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 160%;
+    color: #2F327D;
+}
+
+#id2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 160%;
+color: #F48C06;
+}
+
+.cloud-text> p{
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #696984;
+}
+.cloud-card-3{
+    display: flex;
+
+}
+.cloud-card{
+    margin: 50px;
+    /* background-color: pink; */
+    width: 25%;
+    
+}

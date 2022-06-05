@@ -1,0 +1,25 @@
+.company{
+    width: 100%;
+    margin: 0 auto;
+}
+.company-text{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #696984;
+}
+
+.company-names{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.gallery img{
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+}

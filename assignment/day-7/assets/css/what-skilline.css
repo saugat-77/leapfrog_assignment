@@ -1,0 +1,192 @@
+.what-skil{
+    padding: 20px;
+}
+.skil-info {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+.skil-info > h2{
+    margin: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 120%;
+text-align: center;
+color: #2F327D;
+}
+.skil-info > p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #696984;
+}
+.skil-card{
+    margin: 20px;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.instructor, .student{
+    /* background-color: red; */
+    width: 50%;
+}
+
+.instructor >h2{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    top: 160px;
+    margin-left: 111px;
+
+}
+.instructor > button{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    border: 1px solid white;
+    /* border-color: white; */
+    /* color: #FFFFFF; */
+    mix-blend-mode: normal;
+    top: 200px;
+    margin-left: 125px;
+    background: none;
+    border-radius: 80px;
+
+}
+.instructor > button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgba(35, 189, 238, 0.9);;
+}
+.image-container-1 > img {
+    margin: auto;
+    width: 90%;
+    height: 400px;
+    /* width: 400px; */
+    text-align: center;
+}
+.student{
+    width: 50%;
+    /* background-color: orange; */
+}
+.student >h2{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    top: 160px;
+    margin-left: 111px;
+
+}
+.student > button{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    border: 1px solid white;
+    /* border-color: white; */
+    /* color: #FFFFFF; */
+    mix-blend-mode: normal;
+    top: 200px;
+    margin-left: 105px;
+    background: none;
+    border-radius: 80px;
+
+}
+.student > button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgba(35, 189, 238, 0.9);;
+}
+/* .student > img {
+    margin: auto;
+    width: 90%;
+    height: 600px;
+    width: 400px;
+    text-align: center;
+} */
+
+.skil-more-info{
+    padding: 20px;
+
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.skil-more-left{
+    padding: 20px;
+    width: 60%;
+}
+.skil-more-right{
+    padding: 20px;
+    width: 40%;
+}
+#id3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: #2F327D;
+}
+
+#id4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: #F48C06;
+}
+
+.skil-more-left > p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0.02em;
+color: #696984;
+}
+.skil-more-left > a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #696984;
+}
+
+.skil-more-right img{
+    padding: 20px;
+    float: right;
+    width: 100%;
+}

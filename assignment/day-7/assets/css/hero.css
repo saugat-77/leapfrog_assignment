@@ -1,0 +1,136 @@
+.hero {
+    width: 90%;
+    margin: 0 auto;
+    /* height: 300px; */
+    border: 1px solid black;
+    display: flex;
+  }
+  .hero, .hero-content, .hero-image {
+    flex: 1;  
+    flex: 1;
+  }
+  /* .hero-content{
+  background-color:black;
+  } */
+  /* .hero-text{
+      height: 200px;
+  } */
+  .hero-text > h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 50px;
+    color: #2F327D;
+  }
+  .hero-text > h2 > span{
+    color: #F48C06;
+  }
+  .hero-text > p{
+    width: 75%;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #464646;
+  }
+  .hero-button > button {
+    padding: 10px ;
+    background: #F48C06;
+    border-radius: 80px;
+    border: none;
+    margin: 10px;
+  }
+  .hero-button > img{
+      height: 40px;
+      width: 40px;
+  }
+  /* .hero-image{
+  background-color:green;
+  } */
+  
+
+.hero-image{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.hero-image img {
+    /* height: 400px; */
+    width: 100%;
+}
+
+
+.card-icon img{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin:5px 2px 20px 2px;
+
+}
+.card-content{
+    float: left;
+}
+.card-btn{
+    margin: 10px 10px 2px 10px;
+    border-style: none;
+}
+.card-text{
+    float: left;
+    line-height: 1.2;
+}
+.card-btn button{
+    padding: 5px;
+    border-radius: 10px;
+    background: #D8587E;
+    border-radius: 80px;
+    border: none;
+}
+.card2{
+    top: 376px;
+    margin-left: 295px;
+    position: absolute;
+    background-color: blue;
+    float: left;
+    width: 250px;
+    border-radius: 10px;
+    /* background: rgba(255, 255, 255, 0.8); */
+    backdrop-filter: blur(20px);
+}
+.card3{
+    top: 493px;
+    margin-left: 95px;
+    position: absolute;
+    background-color: purple;
+    float: left;
+    width: 200px;
+    border-radius: 10px;
+    /* background: rgba(255, 255, 255, 0.8); */
+    backdrop-filter: blur(20px);
+}
+.card1{
+    top: 283px;
+    margin-left: 23px;
+    position: absolute;
+    background-color: blue;
+    float: left;
+    width: 170px;
+    border-radius: 10px;
+    /* background: rgba(255, 255, 255, 0.8); */
+    backdrop-filter: blur(20px);
+}
+.hero-image-icon{
+    top: 200px;
+    margin-left: 425px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+
+}
+
+.body{
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: blue; */
+}
