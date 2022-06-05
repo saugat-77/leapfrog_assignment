@@ -6,6 +6,17 @@
     width: 50%;
     /* background-color: red; */
 }
+.our-features, .news-res>h2, .what-say > h2{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 180%;
+color: #2F327D
+}
+
 
 .feature1-left > img{
     /* width: 200px; */
@@ -23,7 +34,7 @@
 table{
     width: 90%;
 }
-table {
+ .what-say> p, table {
     margin-left:20px ;
     font-family: 'Poppins';
     font-style: normal;
@@ -31,7 +42,6 @@ table {
     font-size: 22px;
     line-height: 120%;
     letter-spacing: 0.02em;
-
 color: #696984;
 }
 .feature-2-student > p{
@@ -44,4 +54,22 @@ color: #696984;
 }
 .feature3{
     display:flex ;
+}
+.testo-card > p{
+    color: #5F5F7E;
+    font-family: 'Poppins';
+
+}
+.test-text > span{
+    text-align: center;
+    font-family: 'Nunito Sans';
+    color: #525596
+}
+
+.what-say {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+/* border: 1px solid #F48C06; */
+border-radius: 80px;
 }

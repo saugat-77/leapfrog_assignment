@@ -61,6 +61,7 @@ color: #F48C06;
 
 }
 .cloud-card{
+    background-color: rgb(253, 249, 249);
     margin: 50px;
     /* background-color: pink; */
     width: 25%;

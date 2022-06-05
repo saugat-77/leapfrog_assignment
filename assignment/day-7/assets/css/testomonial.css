@@ -1,0 +1,40 @@
+
+.testomonial{
+    padding: 10px;
+    display: flex;
+}
+.test-text{
+    padding: 10px;
+    width: 50%;
+}
+.test-img{
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+.what-say > p{
+    width: 80%;    
+}
+.what-say > button{
+    padding: 5px;
+    border: 1px solid #F48C06;
+    border-radius: 80px;
+}
+.test-img{
+    position: relative;
+}
+.testo-card{
+    border-radius: 20px;
+    background-color: #F48C06;
+    width: 368px;
+   top: 540px;
+   margin-left: 240px;
+    position: absolute;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    box-shadow: 2px 4px 60px rgba(41, 44, 124, 0.1);
+    background: #FFFFFF;
+}

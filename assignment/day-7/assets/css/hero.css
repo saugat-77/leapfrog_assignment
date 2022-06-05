@@ -97,7 +97,7 @@
     top: 376px;
     margin-left: 295px;
     position: absolute;
-    background-color: blue;
+    /* background-color: blue; */
     float: left;
     width: 250px;
     border-radius: 10px;
@@ -108,7 +108,7 @@
     top: 493px;
     margin-left: 95px;
     position: absolute;
-    background-color: purple;
+    /* background-color: purple; */
     float: left;
     width: 200px;
     border-radius: 10px;

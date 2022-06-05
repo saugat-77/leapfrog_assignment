@@ -1,4 +1,5 @@
 .company{
+    padding: 20px;
     width: 100%;
     margin: 0 auto;
 }
@@ -16,7 +17,8 @@
 .company-names{
     display: flex;
     width: 90%;
-    margin: 0 auto;
+    margin: 30px;
+
 }
 .gallery img{
     height: 50px;
