@@ -1,7 +1,9 @@
 const ball = document.getElementById("ball");
 
+// class Ball{
+//   constructor()
+// }
 let speed= 20;
-
 const ballheight=50;
 const height = 500;
 const width = 500;
@@ -11,6 +13,7 @@ ball.style.left = `${positionX}px`;
 ball.style.top = `${positionX}px`;
 
 setInterval(bounce, 50);
+
 function bounce() {
   positionY += speed;
 
