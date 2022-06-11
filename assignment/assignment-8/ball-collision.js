@@ -13,7 +13,7 @@ class Ball {
   }
 
   createBall() {
-    // console.log("create ball");
+
     this.element = document.createElement("div");
     this.element.style.position = "absolute";
     this.element.style.height = `${this.h}px`;
@@ -29,15 +29,11 @@ class Ball {
   }
 
   moveBall() {
-    // console.log("move ball");
-
     this.px += this.speedX * this.dx;  //if called inside class elements use this.feature only
     this.py += this.speedY * this.dy;
 
     this.element.style.top = this.toPx(this.px);//if called css, this.csskonaam.style
     this.element.style.left = this.toPx(this.py);
-
-    // console.log(this.px, this.py);
   }
 
   boundaryCheck() {
@@ -64,19 +60,19 @@ function generateRandomIntegerInRange(min, max) {
 }
 const noOfBalls=10
 let x=[]
-for(let j=0; j<noOfBalls; j++){ //if ball increases incresase here
+for(let j=0; j<noOfBalls; j++){ 
   z="ball"+[j+1]
   x.push(z)
 }
-console.log(x)
-// let x = ["ball1", "ball2", "ball3", "ball4", "ball5"];
-for (let i = 0; i < noOfBalls; i++) { //if ball increases incresase here
-  var px = Math.floor(Math.random() * 450 + 1); //1-50
+
+
+for (let i = 0; i < noOfBalls; i++) { 
+  var px = Math.floor(Math.random() * 450 + 1); //1-400
   var py = Math.floor(Math.random() * 400 + 1); //1-400
-  var h = Math.floor(Math.random() * 40 + 10);
+  var h = Math.floor(Math.random() * 40 + 10);//10-51
   var w = h;
-  var speedX = Math.floor(Math.random() * 7 + 1);
-  var speedY = Math.floor(Math.random() * 7 + 1);
+  var speedX = Math.floor(Math.random() * 7 + 1);//1-8
+  var speedY = Math.floor(Math.random() * 7 + 1);//1-8
 
   x[i] = new Ball(px, py, h, w, speedX, speedY);
   console.log(x[i])
