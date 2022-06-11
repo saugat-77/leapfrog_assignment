@@ -1,4 +1,6 @@
 const container = document.getElementById("container");
+const containerHeight = 500;
+const containerWidth = 500;
 
 class Ball {
   constructor(px, py, h, w, speedX, speedY, dx = 1, dy = 1) {
@@ -38,10 +40,10 @@ class Ball {
 
   boundaryCheck() {
     console.log("boundary Check");
-    if (this.px >= 500 - this.h) {
+    if (this.px >= containerWidth - this.h) {
       this.dx = -1;
     }
-    if (this.py >= 500 - this.w) {
+    if (this.py >= containerHeight - this.w) {
       this.dy = -1;
     }
     if (this.px <= 0) {
@@ -52,8 +54,7 @@ class Ball {
     }
   }
 }
-const containerHeight = 500;
-const containerWidth = 500;
+
 
 function generateRandomIntegerInRange(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
