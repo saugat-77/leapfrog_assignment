@@ -1,7 +1,7 @@
 const container = document.getElementById("container");
 const containerHeight = 500;
 const containerWidth = 500;
-const noOfBalls = 2;
+const noOfBalls = 3;
 
 class Ball {
   constructor(px, py, d, speedX, speedY, dx = 1, dy = 1) {
@@ -40,14 +40,12 @@ class Ball {
     this.element.style.left = this.toPx(this.py);
   }
 
-  currentPosition(name) {
-    // console.log(name, this.px, this.py, this.d);
-    // console.log(noOfBalls)
-
-    this.cx = this.px + this.d / 2;
-    this.cy = this.py + this.d / 2;
-
-    console.log(name, this.cx, this.cy);
+  currentPosition() {
+    let obj = {};
+    obj.cx = this.px + this.d / 2;
+    obj.cy = this.py + this.d / 2;
+    // console.log( this.cx, this.cy);
+    return obj;
   }
 
   boundaryCheck() {
@@ -79,8 +77,7 @@ for (let i = 0; i < noOfBalls; i++) {
   if (d < 15) {
     d = 15;
   }
-  // speedX=0.5;
-  // speedY=0.5
+
   let speedX = Math.floor(Math.random() * 7 + 1); //1-8 //*7
   let speedY = Math.floor(Math.random() * 7 + 1); //1-8 //*7
 
@@ -90,18 +87,38 @@ for (let i = 0; i < noOfBalls; i++) {
 }
 
 function play() {
-  for (let i = 0; i < noOfBalls; i++) {
-    let z = "ball-" + [i + 1];
+  for (let i = 0; i < noOfBalls; i++) {   
     x[i].moveBall();
 
-    x[i].currentPosition(z);
+    let centeriX = x[i].currentPosition().cx;
+    let centeriY = x[i].currentPosition().cy;
+    let ri = x[i].d / 2;
+
+    for (let j = i + 1; j < noOfBalls; j++) {
+      let rj = x[j].d / 2;
+
+      let centerjX = x[j].currentPosition().cx;
+      let centerjY = x[j].currentPosition().cy;
+
+      distanceX = Math.pow(centeriX - centerjX, 2);
+      distanceY = Math.pow(centeriY - centerjY, 2);
+
+      distance = Math.sqrt(distanceX + distanceY);
+
+      if (distance <= ri+rj) {
+        x[i].dx=-1;
+        x[j].dy=-1;
+  
+        
+      }
+    }
+
     x[i].boundaryCheck();
-    // console.log(x[i])
   }
 
   {
     window.requestAnimationFrame(() => {
-      // play();
+      play();
     });
     // setInterval(play,3000)
   }
