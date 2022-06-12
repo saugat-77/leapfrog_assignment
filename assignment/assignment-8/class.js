@@ -1,7 +1,7 @@
 const container = document.getElementById("container");
-const containerHeight = 500;
+const containerHeight = 1000;
 const containerWidth = 500;
-const noOfBalls = 10;
+const noOfBalls = 5;
 
 class Ball {
   constructor(px, py, d, speedX, speedY, color, dx = 1, dy = 1) {
@@ -14,19 +14,28 @@ class Ball {
     this.speedY = speedY;
     this.color = color;
   }
+  randomColor(){
+    let maxVal = 0xFFFFFF; // 16777215
+    let randomNumber = Math.random() * maxVal; 
+    randomNumber = Math.floor(randomNumber);
+    randomNumber = randomNumber.toString(16);
+    let randColor = randomNumber.padStart(6, 0);   
+    return `#${randColor.toUpperCase()}`
+}
   
   createBall() {
     this.element = document.createElement("div");
     this.element.style.position = "absolute";
     this.element.style.height = `${this.d}px`;
     this.element.style.width = `${this.d}px`;
-    this.element.style.backgroundColor = "red";
+    this.element.style.backgroundColor = this.randomColor();
   
     this.element.style.borderColor = "black";
     this.element.style.borderRadius = "50%";
     this.element.style.top = `${this.px}px`;
     this.element.style.left = `${this.py}px`;
     container.appendChild(this.element);
+
   }
 
   toPx(value) {
