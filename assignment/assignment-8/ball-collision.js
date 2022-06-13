@@ -9,42 +9,51 @@ let count=0;
 let diameter=[];
 
 for (let i = 0; i < noOfBalls; i++) {
-  console.log("i ko loop")
-  let d = Math.floor(Math.random() * 50 + 1);
-  if (d < 15) {
-    d = 15;
+
+  let d = Math.floor(Math.random() * 70 + 1);
+  if (d < 20) {
+    d = 20;
   }
   diameter.push(d)
-  console.log("This is a diameter",diameter)
 
   let px = Math.floor(Math.random() * containerWidth - 5);
   let py = Math.floor(Math.random() * containerHeight - 5);
+
+
   checkX.push(px);
   checkY.push(py);
   
   for (let j = 0; j < i ; j++) {
-  console.log("j ko loop")
-
     
     function checkBall() {
       let cx1 = px + d / 2;
       let cy1 = py + d / 2;
-      distanceX = Math.pow(cx1 - checkX[j], 2);//j+1
-      distanceY = Math.pow(cy1 - checkY[j], 2); //j+1
-      distance = Math.sqrt(distanceX + distanceY);
+      distanceX = (Math.pow(cx1 - checkX[j], 2))/100;
+      distanceY = (Math.pow(cy1 - checkY[j], 2))/100; 
+      distance = (Math.sqrt(distanceX + distanceY)) *10 ;
+      let count=0
       
-      if (distance < diameter[j]+d){
-
-        console.log("hello peps")
+      while (distance < diameter[j]/2+d/2){
 
         let px = Math.floor(Math.random() * containerWidth - 5);
         let py = Math.floor(Math.random() * containerHeight - 5);
+        let d = Math.floor(Math.random() * 50 + 1);
+        if (d < 15) {
+          d = 20;
+        }
+
+        diameter[i]=d;
         checkX[i]=px;
         checkY[i]=py;
+        
+        count+=1
+        
+        if (count > 100) {
+          break;
+        }
+
         checkBall();
       }
-
-
 
     }
     checkBall();

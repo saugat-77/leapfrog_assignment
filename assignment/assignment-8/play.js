@@ -18,7 +18,7 @@ function play() {
         distance = Math.sqrt(distanceX + distanceY);
   
         if (distance <= ri+rj) {
-            console.log("out")
+
           x[i].dx=-1;
           x[j].dy=-1;
     
@@ -31,9 +31,9 @@ function play() {
   
     {
       window.requestAnimationFrame(() => {
-        // play();
+        play();
       });
-      // setInterval(play,3000)
+
     }
   }
   play();
