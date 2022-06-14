@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+}
+
+.container{
+    
+    max-width: 510px;
+    overflow: hidden; 
+    position: absolute;
+    top:30%;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    margin: 0 auto;
+
+}
+
+body{
+    background-color: hsl(206, 58%, 78%);
+}
+
+.carousel-image-wrapper{
+    
+    /* overflow: hidden; */
+    height: 400px;
+    position: relative;
+
+}
+
+#prev, #next {
+    width: 50px;
+    margin: 0 auto;
+    display: inline-block;
+    top: 50%;
+    padding: 10px;
+
+}
+
+.btnWrapper{
+    width: 110px;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    top: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 45%;
+}
+      
+.btnContainer{
+
+    position: relative;
+    width: 110px;
+    height: 50px;
+    margin: 0 auto;
+    }
+  
+#prev:hover, #next:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+
+img{
+    position: absolute;
+    width: 510px;
+    height: 400px;
+    top: 0px;
+}
+
+#dot,.active {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #090c0e9d;
+    border-radius: 50%;
+    display: inline-block;
+    /* transition: background-color 0.5s ease; */
+    
+  }
+
+  #dots{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+  
+  
+  .active, .dot:hover {
+    background-color:white ;
+    border: 5px solid hsl(0, 2%, 29%);
+    /* border-style: none; */
+  }
